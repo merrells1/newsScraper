@@ -8,7 +8,7 @@ router.get("/", function(req,res) {
    Article.find({}).then(function (articles){
        console.log(articles);
        res.render('home', {articles:articles})
-   })
+   });
     
 });
 

@@ -7,7 +7,7 @@ var app = express();
 const apiRoutes = require("./routes/api.js");
 const homeRoutes = require("./routes/home.js");
 
-// Parse request body as JSON
+// Parse request body as JSON//
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Make public a static folder

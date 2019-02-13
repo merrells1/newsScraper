@@ -1,4 +1,4 @@
-// Grab the articles as a json
+// Grab the articles as a json//
 $.getJSON("/api/articles", function(data) {
     // For each one
     console.log(data);

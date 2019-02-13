@@ -5,7 +5,7 @@ const cheerio = require("cheerio");
 
 router.get("/scrape", function(req,res) {
     axios.get("https://slashdot.org/").then(function(page){
-    //console.log(page.data);
+    //console.log(page.data);//
     var data = []
     var $ = cheerio.load(page.data);
     $(".article").each(function(){
