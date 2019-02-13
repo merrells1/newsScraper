@@ -8,19 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CalderMc/newsScrape.git"
+    "url": "git+https://github.com/merrells1/newsScraper.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CalderMc/newsScrape/issues"
+    "url": "https://github.com/merrells1/newsScraper/issues"
   },
-  "homepage": "https://github.com/CalderMc/newsScrape#readme",
+  "homepage": "https://github.com/merrells1/newsScraper#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.4.10"
+    "mongoose": "^5.4.10",
+    "nodemon": "^1.18.10"
   }
 }
